@@ -95,9 +95,6 @@ export function KioskCalendar({ onDateSelect, selectedDate }: KioskCalendarProps
                 </span>
                 <div className="flex items-center gap-1 text-xs">
                   <Users className="w-3 h-3" />
-                  <span className={availableSlots === 0 ? 'text-destructive' : 'text-success'}>
-                    {availableSlots === 0 ? 'Lotado' : `${availableSlots} vagas`}
-                  </span>
                 </div>
               </Button>
             </Card>
